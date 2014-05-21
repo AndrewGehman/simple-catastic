@@ -1225,7 +1225,7 @@ Main Menu
 ********/
 
 /*Fixes issue with admin bar covering the header nav when admin is logged in */
-body.admin-bar header {position:fixed; top: 0px;} 
+body.admin-bar header {position: static; top: 46px;} 
 
 
 #mainmenu {
@@ -1347,7 +1347,7 @@ Main Menu
 
 *******/	
 	
-body.admin-bar header {position:fixed; top: 0px;} 	
+body.admin-bar header {position: static; top: 46px;} 
 	
 #mainmenu {
 	margin: 0;
